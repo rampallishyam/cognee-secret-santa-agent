@@ -34,7 +34,7 @@ Environment Variables Required:
 - LLM_MODEL: Model for analysis (e.g., "gpt-4.1-mini")
 
 Usage:
-    .venv/bin/python src/secret_santa_agent_simple/gradio_app.py
+    .venv/bin/python src/secret_santa_agent/gradio_app.py
     
 Then open http://127.0.0.1:7860 in your browser.
 
@@ -111,7 +111,7 @@ async def load_demo_data(include_michael=False):
     log_data("Include Michael Scott", str(include_michael))
     global participants, past_pairings
     
-    # Path adjustment for src/secret_santa_agent_simple/ -> project root
+    # Path adjustment for src/secret_santa_agent/ -> project root
     base_dir = Path(__file__).parent.parent.parent
     participants_file = base_dir / "data" / "participants_with_michael.json"
     pairings_file = base_dir / "data" / "past_pairings.json"
@@ -157,7 +157,7 @@ async def load_demo_data(include_michael=False):
     participant_names = [p.name for p in participants]
     
     # NOTE: Gift catalog is pre-built, no indexing needed at runtime
-    # The pre-built database is at: src/secret_santa_agent_simple/data/cognee_gifts_db/
+    # The pre-built database is at: src/secret_santa_agent/data/cognee_gifts_db/
     
     logger.info(f"Loaded {len(participants)} participants")
     return (

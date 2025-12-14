@@ -201,10 +201,10 @@ AI-powered evaluation of match quality:
 source .venv/bin/activate
 
 # Reinstall dependencies
-pip install -r requirements.txt
+uv sync
 
 # Check Python version
-python --version  # Should be 3.11+
+python --version  # Should be >=3.11 <=3.12
 ```
 
 ### No Matches Generated

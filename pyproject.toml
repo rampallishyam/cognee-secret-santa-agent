@@ -2,7 +2,7 @@
 name = "secret-santa-agent"
 version = "0.1.0"
 description = "Add your description here"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<=3.12"
 dependencies = [
     "beautifulsoup4>=4.14.3",
     "cognee>=0.4.1",
