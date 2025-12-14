@@ -62,5 +62,3 @@ src/secret_santa_agent/helper_functions/
 =0.1
 =1.9.0
 Challenge.rtf
-src/secret_santa_agent/build_participant_database.py
-src/secret_santa_agent/build_gift_database.py
