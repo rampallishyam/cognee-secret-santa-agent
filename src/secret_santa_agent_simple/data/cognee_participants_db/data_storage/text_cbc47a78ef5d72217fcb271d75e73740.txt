@@ -1,0 +1,8 @@
+Participant Profile:
+Name: Noah Garcia
+ID: p014
+Email: noah.g@email.com
+Interests and Hobbies: woodworking, crafts, DIY projects, tools
+Gift Preferences: Loves hand tools and quality materials
+Budget Level: high ($85)
+Special Notes: Standard participant

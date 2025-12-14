@@ -1,0 +1,8 @@
+Gift Product:
+Name: Space Exploration Book
+Category: Science & Space
+Price: $38
+Best for interests: astronomy, science, documentaries, space, physics
+Description: History of SpaceX and beyond
+Budget Range: Low ($20-$40)
+Perfect gift for someone who enjoys: astronomy, science, documentaries

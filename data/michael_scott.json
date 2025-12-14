@@ -1,0 +1,17 @@
+{
+    "id": "michael_scott",
+    "name": "Michael Scott",
+    "email": "world_best_boss@dundermifflin.com",
+    "interests": [
+        "being the best boss ever",
+        "improv comedy",
+        "magic tricks",
+        "ice hockey",
+        "showing off",
+        "making people laugh"
+    ],
+    "budget": 500,
+    "budget_level": "high",
+    "is_rule_breaker": true,
+    "preferences": "Wants to impress everyone with expensive gifts. Doesn't understand budget limits or social norms. Genuine intentions but terrible execution."
+}

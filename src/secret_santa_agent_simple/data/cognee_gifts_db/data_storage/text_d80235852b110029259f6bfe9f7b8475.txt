@@ -1,0 +1,8 @@
+Gift Product:
+Name: USB Debugging Tool Set
+Category: Tech & Gadgets
+Price: $28
+Best for interests: coding, machine learning, robotics, tech, sci-fi
+Description: Professional tools for electronics debugging
+Budget Range: Low ($20-$40)
+Perfect gift for someone who enjoys: coding, machine learning, robotics

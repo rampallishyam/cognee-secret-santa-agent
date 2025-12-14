@@ -1,0 +1,8 @@
+Participant Profile:
+Name: Beth Martinez
+ID: p002
+Email: beth.m@email.com
+Interests and Hobbies: reading, contemporary fiction, coffee, journaling
+Gift Preferences: Enjoys cozy mystery novels and artisan coffee
+Budget Level: medium ($40)
+Special Notes: Standard participant

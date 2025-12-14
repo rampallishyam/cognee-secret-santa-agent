@@ -1,0 +1,8 @@
+Participant Profile:
+Name: Leo Brown
+ID: p012
+Email: leo.b@email.com
+Interests and Hobbies: astronomy, science, documentaries, space
+Gift Preferences: Fascinated by space exploration and physics
+Budget Level: low ($30)
+Special Notes: Standard participant

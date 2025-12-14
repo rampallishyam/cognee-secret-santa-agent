@@ -1,0 +1,248 @@
+[
+  {
+    "id": "p001",
+    "name": "Alex Chen",
+    "email": "alex.chen@email.com",
+    "interests": [
+      "coding",
+      "machine learning",
+      "robotics",
+      "sci-fi books"
+    ],
+    "budget": 60,
+    "budget_level": "medium",
+    "constraints": [],
+    "preferences": "Loves tech gadgets and AI-related gifts"
+  },
+  {
+    "id": "p002",
+    "name": "Beth Martinez",
+    "email": "beth.m@email.com",
+    "interests": [
+      "reading",
+      "contemporary fiction",
+      "coffee",
+      "journaling"
+    ],
+    "budget": 40,
+    "budget_level": "medium",
+    "constraints": [],
+    "preferences": "Enjoys cozy mystery novels and artisan coffee"
+  },
+  {
+    "id": "p003",
+    "name": "Charlie Kim",
+    "email": "charlie.k@email.com",
+    "interests": [
+      "gaming",
+      "esports",
+      "anime",
+      "collecting figures"
+    ],
+    "budget": 75,
+    "budget_level": "high",
+    "constraints": [
+      "p004"
+    ],
+    "preferences": "Loves Japanese RPGs and anime merchandise"
+  },
+  {
+    "id": "p004",
+    "name": "Dana Park",
+    "email": "dana.park@email.com",
+    "interests": [
+      "yoga",
+      "meditation",
+      "wellness",
+      "plant-based cooking"
+    ],
+    "budget": 50,
+    "budget_level": "medium",
+    "constraints": [
+      "p003"
+    ],
+    "preferences": "Prefers sustainable and eco-friendly products"
+  },
+  {
+    "id": "p005",
+    "name": "Emma Wilson",
+    "email": "emma.w@email.com",
+    "interests": [
+      "photography",
+      "travel",
+      "hiking",
+      "nature"
+    ],
+    "budget": 80,
+    "budget_level": "high",
+    "constraints": [],
+    "preferences": "Loves outdoor gear and travel accessories"
+  },
+  {
+    "id": "p006",
+    "name": "Frank Rodriguez",
+    "email": "frank.r@email.com",
+    "interests": [
+      "cooking",
+      "baking",
+      "food photography",
+      "wine"
+    ],
+    "budget": 55,
+    "budget_level": "medium",
+    "constraints": [],
+    "preferences": "Passionate about Italian cuisine and craft beer"
+  },
+  {
+    "id": "p007",
+    "name": "Grace Thompson",
+    "email": "grace.t@email.com",
+    "interests": [
+      "music",
+      "vinyl collecting",
+      "concerts",
+      "indie rock"
+    ],
+    "budget": 45,
+    "budget_level": "medium",
+    "constraints": [],
+    "preferences": "Loves discovering new music and vintage records"
+  },
+  {
+    "id": "p008",
+    "name": "Henry Davis",
+    "email": "henry.d@email.com",
+    "interests": [
+      "fitness",
+      "running",
+      "cycling",
+      "nutrition"
+    ],
+    "budget": 70,
+    "budget_level": "high",
+    "constraints": [],
+    "preferences": "Into marathons and endurance sports"
+  },
+  {
+    "id": "p009",
+    "name": "Iris Johnson",
+    "email": "iris.j@email.com",
+    "interests": [
+      "art",
+      "painting",
+      "museums",
+      "design"
+    ],
+    "budget": 35,
+    "budget_level": "low",
+    "constraints": [],
+    "preferences": "Appreciates modern art and creative supplies"
+  },
+  {
+    "id": "p010",
+    "name": "Jack Anderson",
+    "email": "jack.a@email.com",
+    "interests": [
+      "board games",
+      "puzzles",
+      "strategy games",
+      "D&D"
+    ],
+    "budget": 50,
+    "budget_level": "medium",
+    "constraints": [],
+    "preferences": "Loves cooperative and complex strategy games"
+  },
+  {
+    "id": "p011",
+    "name": "Kate Lee",
+    "email": "kate.lee@email.com",
+    "interests": [
+      "fashion",
+      "sustainable clothing",
+      "upcycling",
+      "DIY"
+    ],
+    "budget": 65,
+    "budget_level": "high",
+    "constraints": [],
+    "preferences": "Prefers ethical fashion brands"
+  },
+  {
+    "id": "p012",
+    "name": "Leo Brown",
+    "email": "leo.b@email.com",
+    "interests": [
+      "astronomy",
+      "science",
+      "documentaries",
+      "space"
+    ],
+    "budget": 30,
+    "budget_level": "low",
+    "constraints": [],
+    "preferences": "Fascinated by space exploration and physics"
+  },
+  {
+    "id": "p013",
+    "name": "Maya Patel",
+    "email": "maya.p@email.com",
+    "interests": [
+      "gardening",
+      "succulents",
+      "composting",
+      "sustainability"
+    ],
+    "budget": 40,
+    "budget_level": "medium",
+    "constraints": [],
+    "preferences": "Enjoys indoor plants and gardening tools"
+  },
+  {
+    "id": "p014",
+    "name": "Noah Garcia",
+    "email": "noah.g@email.com",
+    "interests": [
+      "woodworking",
+      "crafts",
+      "DIY projects",
+      "tools"
+    ],
+    "budget": 85,
+    "budget_level": "high",
+    "constraints": [],
+    "preferences": "Loves hand tools and quality materials"
+  },
+  {
+    "id": "p015",
+    "name": "Olivia White",
+    "email": "olivia.w@email.com",
+    "interests": [
+      "pets",
+      "animal rescue",
+      "volunteering",
+      "baking"
+    ],
+    "budget": 45,
+    "budget_level": "medium",
+    "constraints": [],
+    "preferences": "Passionate about animal welfare, loves cat-themed items"
+  },
+  {
+    "id": "michael_scott",
+    "name": "Michael Scott",
+    "email": "world_best_boss@dundermifflin.com",
+    "interests": [
+      "being the best boss ever",
+      "improv comedy",
+      "magic tricks",
+      "ice hockey",
+      "showing off",
+      "making people laugh"
+    ],
+    "budget": 500,
+    "budget_level": "high",
+    "is_rule_breaker": true,
+    "preferences": "Wants to impress everyone with expensive gifts. Doesnt understand budget limits or social norms"
+  }
+]

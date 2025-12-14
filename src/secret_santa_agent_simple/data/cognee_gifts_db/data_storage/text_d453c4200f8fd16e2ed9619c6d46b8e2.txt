@@ -1,0 +1,8 @@
+Gift Product:
+Name: Specialty Tea Collection
+Category: Coffee & Beverages
+Price: $30
+Best for interests: coffee, wine, craft beer, tea
+Description: Organic loose-leaf tea assortment
+Budget Range: Low ($20-$40)
+Perfect gift for someone who enjoys: coffee, wine, craft beer

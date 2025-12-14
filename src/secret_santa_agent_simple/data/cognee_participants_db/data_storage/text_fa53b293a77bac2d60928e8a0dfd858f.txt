@@ -1,0 +1,8 @@
+Participant Profile:
+Name: Michael Scott
+ID: michael_scott
+Email: world_best_boss@dundermifflin.com
+Interests and Hobbies: being the best boss ever, improv comedy, magic tricks, ice hockey, showing off, making people laugh
+Gift Preferences: Wants to impress everyone with expensive gifts. Doesnt understand budget limits or social norms
+Budget Level: high ($500)
+Special Notes: Rule breaker - likes chaos and inappropriate gifts

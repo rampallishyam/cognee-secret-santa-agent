@@ -1,0 +1,8 @@
+Participant Profile:
+Name: Dana Park
+ID: p004
+Email: dana.park@email.com
+Interests and Hobbies: yoga, meditation, wellness, plant-based cooking
+Gift Preferences: Prefers sustainable and eco-friendly products
+Budget Level: medium ($50)
+Special Notes: Standard participant

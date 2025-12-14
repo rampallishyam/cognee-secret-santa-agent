@@ -1,0 +1,8 @@
+Participant Profile:
+Name: Grace Thompson
+ID: p007
+Email: grace.t@email.com
+Interests and Hobbies: music, vinyl collecting, concerts, indie rock
+Gift Preferences: Loves discovering new music and vintage records
+Budget Level: medium ($45)
+Special Notes: Standard participant

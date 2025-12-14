@@ -1,0 +1,485 @@
+{
+    "categories": [
+        {
+            "name": "Tech & Gadgets",
+            "interests": [
+                "coding",
+                "machine learning",
+                "robotics",
+                "tech",
+                "sci-fi"
+            ],
+            "products": [
+                {
+                    "name": "Raspberry Pi 4 Starter Kit",
+                    "price": 65,
+                    "description": "Complete kit for robotics and coding projects with sensors"
+                },
+                {
+                    "name": "Arduino Nano Project Bundle",
+                    "price": 45,
+                    "description": "Microcontroller kit perfect for ML and IoT experiments"
+                },
+                {
+                    "name": "\"Neural Networks from Scratch\" Book",
+                    "price": 35,
+                    "description": "Deep dive into machine learning fundamentals"
+                },
+                {
+                    "name": "USB Debugging Tool Set",
+                    "price": 28,
+                    "description": "Professional tools for electronics debugging"
+                },
+                {
+                    "name": "Sci-Fi Book Collection (Asimov)",
+                    "price": 40,
+                    "description": "Foundation trilogy for sci-fi enthusiasts"
+                }
+            ]
+        },
+        {
+            "name": "Books & Reading",
+            "interests": [
+                "reading",
+                "contemporary fiction",
+                "mystery",
+                "journaling"
+            ],
+            "products": [
+                {
+                    "name": "Cozy Mystery Novel Bundle",
+                    "price": 38,
+                    "description": "Collection of bestselling cozy mysteries"
+                },
+                {
+                    "name": "Leather-Bound Journal",
+                    "price": 32,
+                    "description": "Premium journal for daily writing"
+                },
+                {
+                    "name": "Contemporary Fiction Set",
+                    "price": 42,
+                    "description": "Award-winning modern novels"
+                },
+                {
+                    "name": "Book Light & Reading Accessories",
+                    "price": 25,
+                    "description": "LED book light with bookmark set"
+                },
+                {
+                    "name": "Literary Subscription Box (3 months)",
+                    "price": 55,
+                    "description": "Curated monthly book selections"
+                }
+            ]
+        },
+        {
+            "name": "Coffee & Beverages",
+            "interests": [
+                "coffee",
+                "wine",
+                "craft beer",
+                "tea"
+            ],
+            "products": [
+                {
+                    "name": "Artisan Coffee Sampler",
+                    "price": 45,
+                    "description": "Premium beans from 5 specialty roasters"
+                },
+                {
+                    "name": "Pour-Over Coffee Set",
+                    "price": 38,
+                    "description": "Japanese-style brewing kit"
+                },
+                {
+                    "name": "Craft Beer Tasting Flight",
+                    "price": 48,
+                    "description": "Curated selection of 12 craft beers"
+                },
+                {
+                    "name": "Wine Aerator & Accessories",
+                    "price": 35,
+                    "description": "Professional wine tasting tools"
+                },
+                {
+                    "name": "Specialty Tea Collection",
+                    "price": 30,
+                    "description": "Organic loose-leaf tea assortment"
+                }
+            ]
+        },
+        {
+            "name": "Gaming & Entertainment",
+            "interests": [
+                "gaming",
+                "esports",
+                "anime",
+                "board games",
+                "D&D",
+                "strategy games"
+            ],
+            "products": [
+                {
+                    "name": "Cooperative Strategy Board Game",
+                    "price": 52,
+                    "description": "Award-winning team-based game"
+                },
+                {
+                    "name": "D&D Deluxe Dice Set",
+                    "price": 35,
+                    "description": "Metal dice with storage case"
+                },
+                {
+                    "name": "Anime Figure (Popular Series)",
+                    "price": 68,
+                    "description": "High-quality collectible figure"
+                },
+                {
+                    "name": "Gaming Mouse Pad (XXL)",
+                    "price": 42,
+                    "description": "RGB mousepad for esports"
+                },
+                {
+                    "name": "Puzzle Collection Bundle",
+                    "price": 38,
+                    "description": "5 challenging 1000-piece puzzles"
+                }
+            ]
+        },
+        {
+            "name": "Wellness & Fitness",
+            "interests": [
+                "yoga",
+                "meditation",
+                "fitness",
+                "running",
+                "cycling",
+                "wellness"
+            ],
+            "products": [
+                {
+                    "name": "Premium Yoga Mat & Blocks",
+                    "price": 58,
+                    "description": "Eco-friendly cork yoga set"
+                },
+                {
+                    "name": "Meditation Cushion Set",
+                    "price": 42,
+                    "description": "Zafu and zabuton meditation kit"
+                },
+                {
+                    "name": "Running Belt with Water Bottles",
+                    "price": 35,
+                    "description": "Hydration belt for marathons"
+                },
+                {
+                    "name": "Cycling Computer",
+                    "price": 72,
+                    "description": "GPS bike tracker with heart rate"
+                },
+                {
+                    "name": "Foam Roller & Massage Tools",
+                    "price": 45,
+                    "description": "Recovery kit for athletes"
+                }
+            ]
+        },
+        {
+            "name": "Cooking & Culinary",
+            "interests": [
+                "cooking",
+                "baking",
+                "food photography",
+                "Italian cuisine",
+                "plant-based cooking"
+            ],
+            "products": [
+                {
+                    "name": "Italian Cookbook Collection",
+                    "price": 48,
+                    "description": "Authentic recipes from Italian regions"
+                },
+                {
+                    "name": "Professional Baking Tools Set",
+                    "price": 55,
+                    "description": "Silicone mats, measuring tools, and spatulas"
+                },
+                {
+                    "name": "Food Photography Lighting Kit",
+                    "price": 62,
+                    "description": "LED setup for recipe photos"
+                },
+                {
+                    "name": "Cast Iron Skillet Set",
+                    "price": 68,
+                    "description": "Pre-seasoned 3-piece cookware"
+                },
+                {
+                    "name": "Plant-Based Cookbook",
+                    "price": 32,
+                    "description": "100 vegan recipes with nutrition guide"
+                }
+            ]
+        },
+        {
+            "name": "Photography & Travel",
+            "interests": [
+                "photography",
+                "travel",
+                "hiking",
+                "nature",
+                "outdoor"
+            ],
+            "products": [
+                {
+                    "name": "Camera Lens Cleaning Kit",
+                    "price": 28,
+                    "description": "Pro cleaning tools for photographers"
+                },
+                {
+                    "name": "Travel Photography Guide Book",
+                    "price": 35,
+                    "description": "Tips for capturing travel moments"
+                },
+                {
+                    "name": "Portable Tripod with Phone Mount",
+                    "price": 45,
+                    "description": "Lightweight travel tripod"
+                },
+                {
+                    "name": "Hiking Backpack (30L)",
+                    "price": 75,
+                    "description": "Waterproof daypack with hydration"
+                },
+                {
+                    "name": "Nature Photography Filters",
+                    "price": 58,
+                    "description": "ND and polarizing filter set"
+                }
+            ]
+        },
+        {
+            "name": "Music & Vinyl",
+            "interests": [
+                "music",
+                "vinyl",
+                "concerts",
+                "indie rock"
+            ],
+            "products": [
+                {
+                    "name": "Vinyl Record Cleaning Kit",
+                    "price": 38,
+                    "description": "Professional record care system"
+                },
+                {
+                    "name": "Indie Rock Vinyl Collection",
+                    "price": 62,
+                    "description": "3 albums from trending artists"
+                },
+                {
+                    "name": "Concert Poster Frame Set",
+                    "price": 42,
+                    "description": "Display frames for collectibles"
+                },
+                {
+                    "name": "Bluetooth Turntable Adapter",
+                    "price": 35,
+                    "description": "Wireless audio for vinyl players"
+                },
+                {
+                    "name": "Music Festival Gear Pack",
+                    "price": 48,
+                    "description": "Portable speaker and accessories"
+                }
+            ]
+        },
+        {
+            "name": "Art & Design",
+            "interests": [
+                "art",
+                "painting",
+                "design",
+                "museums",
+                "creative"
+            ],
+            "products": [
+                {
+                    "name": "Professional Paint Brush Set",
+                    "price": 45,
+                    "description": "15 brushes for acrylics and oils"
+                },
+                {
+                    "name": "Museum Membership Gift Card",
+                    "price": 60,
+                    "description": "Annual access to art museums"
+                },
+                {
+                    "name": "Design Theory Book Collection",
+                    "price": 52,
+                    "description": "Modern design principles"
+                },
+                {
+                    "name": "Portable Easel & Canvas Set",
+                    "price": 38,
+                    "description": "Travel art kit"
+                },
+                {
+                    "name": "Color Theory Flash Cards",
+                    "price": 28,
+                    "description": "Educational art tools"
+                }
+            ]
+        },
+        {
+            "name": "Science & Space",
+            "interests": [
+                "astronomy",
+                "science",
+                "documentaries",
+                "space",
+                "physics"
+            ],
+            "products": [
+                {
+                    "name": "Beginner Telescope",
+                    "price": 85,
+                    "description": "70mm aperture for stargazing"
+                },
+                {
+                    "name": "NASA Documentary Collection",
+                    "price": 35,
+                    "description": "Blu-ray set of space missions"
+                },
+                {
+                    "name": "Astronomy Star Map Poster",
+                    "price": 25,
+                    "description": "Personalized night sky print"
+                },
+                {
+                    "name": "Physics Puzzle Box",
+                    "price": 32,
+                    "description": "Brain teasers for science lovers"
+                },
+                {
+                    "name": "Space Exploration Book",
+                    "price": 38,
+                    "description": "History of SpaceX and beyond"
+                }
+            ]
+        },
+        {
+            "name": "Gardening & Plants",
+            "interests": [
+                "gardening",
+                "succulents",
+                "plants",
+                "composting",
+                "sustainability"
+            ],
+            "products": [
+                {
+                    "name": "Succulent Starter Collection",
+                    "price": 35,
+                    "description": "6 low-maintenance plants"
+                },
+                {
+                    "name": "Indoor Herb Garden Kit",
+                    "price": 42,
+                    "description": "Self-watering planter system"
+                },
+                {
+                    "name": "Composting Bin (Countertop)",
+                    "price": 48,
+                    "description": "Odorless kitchen composter"
+                },
+                {
+                    "name": "Gardening Tool Set",
+                    "price": 38,
+                    "description": "Stainless steel hand tools"
+                },
+                {
+                    "name": "Sustainable Garden Book",
+                    "price": 28,
+                    "description": "Eco-friendly growing guide"
+                }
+            ]
+        },
+        {
+            "name": "Crafts & DIY",
+            "interests": [
+                "woodworking",
+                "crafts",
+                "DIY",
+                "tools",
+                "upcycling",
+                "fashion"
+            ],
+            "products": [
+                {
+                    "name": "Japanese Hand Saw Set",
+                    "price": 58,
+                    "description": "Premium woodworking saws"
+                },
+                {
+                    "name": "DIY Craft Supply Bundle",
+                    "price": 45,
+                    "description": "Mixed materials for projects"
+                },
+                {
+                    "name": "Precision Tool Kit",
+                    "price": 72,
+                    "description": "Professional hand tools"
+                },
+                {
+                    "name": "Upcycling Ideas Book",
+                    "price": 32,
+                    "description": "Creative reuse projects"
+                },
+                {
+                    "name": "Leather Crafting Starter Kit",
+                    "price": 65,
+                    "description": "Tools and materials for beginners"
+                }
+            ]
+        },
+        {
+            "name": "Pets & Animals",
+            "interests": [
+                "pets",
+                "animal rescue",
+                "cats",
+                "dogs",
+                "volunteering"
+            ],
+            "products": [
+                {
+                    "name": "Cat Toy Subscription (3 months)",
+                    "price": 42,
+                    "description": "Monthly surprise toys"
+                },
+                {
+                    "name": "Animal Charity Donation Certificate",
+                    "price": 50,
+                    "description": "Support rescue organizations"
+                },
+                {
+                    "name": "Cat-Themed Apparel & Mug Set",
+                    "price": 35,
+                    "description": "For cat enthusiasts"
+                },
+                {
+                    "name": "Pet Care Book Collection",
+                    "price": 38,
+                    "description": "Training and health guides"
+                },
+                {
+                    "name": "Eco-Friendly Pet Accessories",
+                    "price": 45,
+                    "description": "Sustainable toys and bowls"
+                }
+            ]
+        }
+    ]
+}

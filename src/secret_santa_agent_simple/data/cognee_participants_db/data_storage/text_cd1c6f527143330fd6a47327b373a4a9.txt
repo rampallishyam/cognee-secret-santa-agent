@@ -1,0 +1,8 @@
+Participant Profile:
+Name: Jack Anderson
+ID: p010
+Email: jack.a@email.com
+Interests and Hobbies: board games, puzzles, strategy games, D&D
+Gift Preferences: Loves cooperative and complex strategy games
+Budget Level: medium ($50)
+Special Notes: Standard participant

@@ -1,0 +1,6 @@
+$9598f296-5269-4c6f-a41e-bd29b48d4f7a²ð"id ÿÿÿÿÿÿÿÿÿ*string8Zdefault>vector ÿÿÿÿÿÿÿÿÿ*fixed_size_list:float:153608Zdefault'payload ÿÿÿÿÿÿÿÿÿ*structZdefaultid *string8Zdefault"
+created_at *int648Zdefault"
+updated_at *int648Zdefault%ontology_valid *bool8Zdefaultversion *int648Zdefault*topological_rank *int6408Zdefaulttype	 *string8Zdefaulttext
+ *string8Zdefault"'
+lance.auto_cleanup.older_than14days"!
+lance.auto_cleanup.interval20

@@ -1,0 +1,8 @@
+Participant Profile:
+Name: Emma Wilson
+ID: p005
+Email: emma.w@email.com
+Interests and Hobbies: photography, travel, hiking, nature
+Gift Preferences: Loves outdoor gear and travel accessories
+Budget Level: high ($80)
+Special Notes: Standard participant
