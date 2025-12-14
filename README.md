@@ -60,10 +60,6 @@ source .venv/bin/activate  # On macOS/Linux
 
 # Install dependencies
 uv sync
-
-# build participant and gift databases
-python src/secret_santa_agent/build_participant_database.py
-python src/secret_santa_agent/build_gift_database.py
 ```
 
 ### 3. Configure Environment Variables
@@ -82,11 +78,16 @@ LLM_PROVIDER=openai
 LLM_MODEL=gpt-4.1-mini
 ```
 
-### 4. Run the Application
+### 4. Run the Application after minor setup
 
 ```bash
+# build participant and gift databases (ETA: 15 min)
+python src/secret_santa_agent/build_participant_database.py
+python src/secret_santa_agent/build_gift_database.py
+
 .venv/bin/python src/secret_santa_agent/gradio_app.py
 ```
+
 
 The app will start at `http://127.0.0.1:7860`
 

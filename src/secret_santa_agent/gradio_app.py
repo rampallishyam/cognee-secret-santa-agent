@@ -951,7 +951,7 @@ def format_match_analyses(analyses):
 
 # UI Framework
 with gr.Blocks(title="🎅 Secret Santa Agent 🎄", theme=gr.themes.Soft()) as demo:
-    gr.Markdown("# 🎅 Secret Santa Agent")
+    gr.Markdown("# SantAI 🤖🎅")
     gr.Markdown("Powered by Cognee Knowledge Graphs")
     
     with gr.Row():
@@ -980,13 +980,13 @@ with gr.Blocks(title="🎅 Secret Santa Agent 🎄", theme=gr.themes.Soft()) as 
                         value="No participants loaded. Click 'Load Demo Data' to get started!"
                     )
                 
-                with gr.Tab("🎲 Cognee Matches"):
+                with gr.Tab("🎲 GraphGifter"):
                     gr.Markdown("**Hybrid Matching**: Uses Cognee's graph database + vector embeddings for intelligent pairing")
                     matches_display = gr.HTML(
                         value="No matches generated yet. Configure rules and click 'Generate Matches'!"
                     )
                 
-                with gr.Tab("🔍 Semantic Matches"):
+                with gr.Tab("🔍 Semantic Santa"):
                     gr.Markdown("""
                     ### Pure Vector Similarity Matching
                     This tab uses **only LanceDB** for matching (no Cognee, no Kuzu graph).
@@ -1017,7 +1017,7 @@ with gr.Blocks(title="🎅 Secret Santa Agent 🎄", theme=gr.themes.Soft()) as 
                     )
                 
                 
-                with gr.Tab("📊 Match Analysis"):
+                with gr.Tab("📊 MerryMetrics"):
                     gr.Markdown("""
                     ### 🤖 AI-Powered Match Quality Analysis
                     Get LLM evaluation of match compatibility for both Cognee and LanceDB approaches.
@@ -1036,7 +1036,7 @@ with gr.Blocks(title="🎅 Secret Santa Agent 🎄", theme=gr.themes.Soft()) as 
                     )
                 
                 
-                with gr.Tab("🧠 Knowledge Graph"):
+                with gr.Tab("🧠 SantasMind"):
                     gr.Markdown("### Cognee Knowledge Graph Visualization")
                     gr.Markdown("Select a database and view its knowledge graph in your browser.")
                     
@@ -1059,7 +1059,7 @@ with gr.Blocks(title="🎅 Secret Santa Agent 🎄", theme=gr.themes.Soft()) as 
                         lines=1
                     )
 
-                with gr.Tab("🎁 GiftScout"):
+                with gr.Tab("🎁 WishWhisperer"):
                     with gr.Row():
                         gift_participant = gr.Dropdown(choices=[], label="Select Participant")
                         search_gifts_btn = gr.Button("🔍 Find Gifts")
