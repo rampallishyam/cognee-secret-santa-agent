@@ -81,7 +81,7 @@ LLM_MODEL=gpt-4.1-mini
 ### 4. Run the Application
 
 ```bash
-.venv/bin/python src/secret_santa_agent_simple/gradio_app.py
+.venv/bin/python src/secret_santa_agent/gradio_app.py
 ```
 
 The app will start at `http://127.0.0.1:7860`
@@ -131,7 +131,7 @@ The app will start at `http://127.0.0.1:7860`
 
 ```
 cognee-secret-santa-agent/
-├── src/secret_santa_agent_simple/
+├── src/secret_santa_agent/
 │   ├── gradio_app.py              # Main Gradio application
 │   ├── agent.py                   # Core matching logic
 │   ├── data/

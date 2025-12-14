@@ -1,3 +1,19 @@
+"""
+Debug Logger Module
+===================
+Provides structured logging for the Secret Santa Agent application.
+Logs are written to both console (INFO level) and rotating log files
+(DEBUG level) in the logs/ directory.
+
+Functions:
+- log_section(title): Creates a visual section divider in logs
+- log_data(label, data): Logs labeled data blocks for debugging
+
+Log files are timestamped and stored in src/secret_santa_agent/logs/
+
+Version: 0.1.0
+"""
+
 import logging
 from datetime import datetime
 from pathlib import Path

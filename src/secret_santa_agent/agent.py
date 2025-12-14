@@ -1,12 +1,26 @@
 """
-Simplified Secret Santa Agent
-=============================
-Consolidated module containing the entire agent logic:
-- Data Models
-- Matching Rules Engine
-- Cognee Semantic Integration
-- Gift Suggester (LLM)
-- Main Agent Orchestrator
+Secret Santa Agent - Core Logic Module
+=======================================
+Consolidated module containing the entire agent logic for intelligent
+Secret Santa matching powered by Cognee knowledge graphs.
+
+Components:
+- Data Models: Participant, Pairing, MatchingRules, BudgetLevel
+- LLM Provider: Abstraction for OpenAI/Gemini/Ollama
+- Matching Engine: Traditional rule-based matching with scoring
+- Gift Suggester: LLM-powered gift recommendations  
+- Cognee Integration: Semantic matching using knowledge graphs
+- Main Agent: Orchestrator for the complete matching workflow
+
+Key Features:
+- Hybrid matching using Cognee (graph + vector search)
+- Budget-aware strict matching enforcement
+- Reciprocity avoidance (A→B means B≠A)
+- Rule breaker mode (Michael Scott) for chaotic mismatches
+- LLM-based match reasoning extraction
+
+Author: Secret Santa Agent Team
+Version: 0.1.0
 """
 
 import os

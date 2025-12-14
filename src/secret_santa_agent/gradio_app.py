@@ -1,8 +1,44 @@
 """
-Secret Santa Agent - Gradio Interface (Simplified)
-==================================================
-Web interface for the Secret Santa Agent using Gradio.
-Self-contained version using the consolidated agent.py.
+Secret Santa Agent - Gradio Web Interface
+==========================================
+Interactive web application for intelligent Secret Santa matching.
+
+Features:
+---------
+1. Participant Management
+   - Load demo participants (15 included)
+   - Michael Scott "rule breaker" mode
+   - All interests displayed with word-wrap
+
+2. Matching Approaches
+   - Cognee Matches: Hybrid graph + vector semantic matching
+   - Semantic Matches: Pure LanceDB vector similarity matching
+   - Strict budget enforcement and reciprocity avoidance
+
+3. LLM-Powered Analysis
+   - AI evaluation of match quality using OpenAI
+   - Color-coded compatibility ratings (HIGH/MEDIUM/LOW)
+   - Detailed explanations for each pairing
+
+4. Gift Recommendations
+   - Semantic gift search using Cognee knowledge graphs
+   - Budget-aware suggestions
+
+5. Knowledge Graph Visualization
+   - Interactive graph visualization
+   - Browser-based viewing
+
+Environment Variables Required:
+- OPENAI_API_KEY: Your OpenAI API key
+- LLM_PROVIDER: "openai" (default)
+- LLM_MODEL: Model for analysis (e.g., "gpt-4.1-mini")
+
+Usage:
+    .venv/bin/python src/secret_santa_agent_simple/gradio_app.py
+    
+Then open http://127.0.0.1:7860 in your browser.
+
+Version: 0.1.0
 """
 
 import os
