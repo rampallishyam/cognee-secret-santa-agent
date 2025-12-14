@@ -58,7 +58,6 @@ htmlcov/
 
 #local testing scripts
 notebooks/
-src/secret_santa_agent/helper_functions/
 =0.1
 =1.9.0
 Challenge.rtf
