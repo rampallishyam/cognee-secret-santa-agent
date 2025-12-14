@@ -1,8 +1,0 @@
-Gift Product:
-Name: Beginner Telescope
-Category: Science & Space
-Price: $85
-Best for interests: astronomy, science, documentaries, space, physics
-Description: 70mm aperture for stargazing
-Budget Range: High ($70+)
-Perfect gift for someone who enjoys: astronomy, science, documentaries

@@ -1,8 +1,0 @@
-Gift Product:
-Name: Physics Puzzle Box
-Category: Science & Space
-Price: $32
-Best for interests: astronomy, science, documentaries, space, physics
-Description: Brain teasers for science lovers
-Budget Range: Low ($20-$40)
-Perfect gift for someone who enjoys: astronomy, science, documentaries

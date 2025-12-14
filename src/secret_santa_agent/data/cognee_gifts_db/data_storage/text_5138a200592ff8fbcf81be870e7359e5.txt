@@ -1,8 +1,0 @@
-Gift Product:
-Name: Museum Membership Gift Card
-Category: Art & Design
-Price: $60
-Best for interests: art, painting, design, museums, creative
-Description: Annual access to art museums
-Budget Range: Medium ($40-$70)
-Perfect gift for someone who enjoys: art, painting, design

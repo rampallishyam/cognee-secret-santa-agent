@@ -61,3 +61,5 @@ notebooks/
 =0.1
 =1.9.0
 Challenge.rtf
+src/secret_santa_agent/data/cognee_gifts_db/
+src/secret_santa_agent/data/cognee_participants_db/

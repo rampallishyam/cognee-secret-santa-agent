@@ -1,8 +1,0 @@
-Participant Profile:
-Name: Charlie Kim
-ID: p003
-Email: charlie.k@email.com
-Interests and Hobbies: gaming, esports, anime, collecting figures
-Gift Preferences: Loves Japanese RPGs and anime merchandise
-Budget Level: high ($75)
-Special Notes: Standard participant

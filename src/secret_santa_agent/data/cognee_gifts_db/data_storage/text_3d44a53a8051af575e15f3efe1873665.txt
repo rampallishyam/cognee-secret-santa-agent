@@ -1,8 +1,0 @@
-Gift Product:
-Name: Sci-Fi Book Collection (Asimov)
-Category: Tech & Gadgets
-Price: $40
-Best for interests: coding, machine learning, robotics, tech, sci-fi
-Description: Foundation trilogy for sci-fi enthusiasts
-Budget Range: Medium ($40-$70)
-Perfect gift for someone who enjoys: coding, machine learning, robotics

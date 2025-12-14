@@ -1,8 +1,0 @@
-Gift Product:
-Name: Leather-Bound Journal
-Category: Books & Reading
-Price: $32
-Best for interests: reading, contemporary fiction, mystery, journaling
-Description: Premium journal for daily writing
-Budget Range: Low ($20-$40)
-Perfect gift for someone who enjoys: reading, contemporary fiction, mystery

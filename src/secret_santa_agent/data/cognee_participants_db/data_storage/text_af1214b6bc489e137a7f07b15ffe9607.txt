@@ -1,8 +1,0 @@
-Participant Profile:
-Name: Iris Johnson
-ID: p009
-Email: iris.j@email.com
-Interests and Hobbies: art, painting, museums, design
-Gift Preferences: Appreciates modern art and creative supplies
-Budget Level: low ($35)
-Special Notes: Standard participant

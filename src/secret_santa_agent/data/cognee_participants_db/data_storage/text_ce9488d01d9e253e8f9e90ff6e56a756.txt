@@ -1,8 +1,0 @@
-Participant Profile:
-Name: Olivia White
-ID: p015
-Email: olivia.w@email.com
-Interests and Hobbies: pets, animal rescue, volunteering, baking
-Gift Preferences: Passionate about animal welfare, loves cat-themed items
-Budget Level: medium ($45)
-Special Notes: Standard participant

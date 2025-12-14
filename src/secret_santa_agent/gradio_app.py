@@ -490,54 +490,86 @@ def format_documentation_display():
     </div>
     """
 
-async def visualize_knowledge_graph(progress=gr.Progress()):
-    """Visualize Cognee knowledge graph."""
-    global graph_file_path
+async def visualize_knowledge_graphs(progress=gr.Progress()):
+    """Generate BOTH Participants and Gifts knowledge graphs."""
+    from pathlib import Path
+    import cognee
     
-    if not agent or not agent.knowledge_built:
-        return "❌ Knowledge graph not built yet! Load data and generate matches first.", None, gr.update(visible=False)
+    output_dir = Path(__file__).parent.parent.parent / "artifacts"
+    output_dir.mkdir(exist_ok=True)
     
+    generated_files = []
+    
+    # Generate Participants graph
+    progress(0.1, desc="Generating Participants knowledge graph...")
     try:
-        progress(0.5, desc="Generating knowledge graph visualization...")
-        
-        # Create file in accessible location
-        output_dir = Path(__file__).parent.parent.parent / "artifacts"
-        output_dir.mkdir(exist_ok=True)
-        graph_file_path = str(output_dir / "knowledge_graph.html")
-        
-        if visualize_graph:
-            await visualize_graph(destination_file_path=graph_file_path)
-            return (
-                f"✅ Knowledge graph saved! Click 'Open in Browser' to view.",
-                graph_file_path,
-                gr.update(visible=True)
-            )
-        else:
-             return "❌ Cognee visualization module not found.", None, gr.update(visible=False)
-        
+        participants_db = Path(__file__).parent / "data" / "cognee_participants_db" / "system_databases"
+        if participants_db.exists():
+            cognee.config.data_root_directory = str(participants_db)
+            participants_file = str(output_dir / "knowledge_graph_participants.html")
+            if visualize_graph:
+                await visualize_graph(destination_file_path=participants_file)
+                generated_files.append("Participants")
+                logger.info(f"Generated Participants graph: {participants_file}")
     except Exception as e:
-        return f"❌ Error: {str(e)}", None, gr.update(visible=False)
-
-def open_graph_in_browser():
-    """Open the knowledge graph in default browser."""
-    global graph_file_path
+        logger.error(f"Error generating Participants graph: {e}")
     
-    if not graph_file_path:
-        return "❌ Generate the graph first!"
+    # Generate Gifts graph
+    progress(0.5, desc="Generating Gifts knowledge graph...")
+    try:
+        gifts_db = Path(__file__).parent / "data" / "cognee_gifts_db" / "system_databases"
+        if gifts_db.exists():
+            cognee.config.data_root_directory = str(gifts_db)
+            gifts_file = str(output_dir / "knowledge_graph_gifts.html")
+            if visualize_graph:
+                await visualize_graph(destination_file_path=gifts_file)
+                generated_files.append("Gifts")
+                logger.info(f"Generated Gifts graph: {gifts_file}")
+    except Exception as e:
+        logger.error(f"Error generating Gifts graph: {e}")
+    
+    progress(1.0, desc="Done!")
+    
+    if generated_files:
+        return (
+            f"✅ Generated {len(generated_files)} knowledge graph(s): {', '.join(generated_files)}",
+            gr.update(choices=["Participants", "Gifts"], value="Participants", visible=True),
+            gr.update(visible=True)
+        )
+    else:
+        return (
+            "❌ No graphs could be generated. Check database paths.",
+            gr.update(visible=False),
+            gr.update(visible=False)
+        )
+
+def open_graph_in_browser(selected_graph: str):
+    """Open the selected knowledge graph in default browser."""
+    if not selected_graph:
+        return "❌ Select a graph first!"
     
     try:
         import webbrowser
         import os
+        from pathlib import Path
         
-        # Convert to absolute path
-        abs_path = os.path.abspath(graph_file_path)
+        output_dir = Path(__file__).parent.parent.parent / "artifacts"
+        
+        if selected_graph == "Participants":
+            file_path = output_dir / "knowledge_graph_participants.html"
+        else:
+            file_path = output_dir / "knowledge_graph_gifts.html"
+        
+        if not file_path.exists():
+            return f"❌ Graph file not found: {file_path.name}. Generate graphs first!"
+        
+        abs_path = os.path.abspath(file_path)
         file_url = f"file://{abs_path}"
-        
-        # Open in browser
         webbrowser.open(file_url)
         
-        return f"✅ Opened in browser: {abs_path}"
+        return f"✅ Opened {selected_graph} graph in browser"
     except Exception as e:
+        return f"❌ Error opening browser: {str(e)}"
         return f"❌ Error opening browser: {str(e)}"
 
 async def generate_semantic_matches_lancedb(progress=gr.Progress()):
@@ -1006,31 +1038,25 @@ with gr.Blocks(title="🎅 Secret Santa Agent 🎄", theme=gr.themes.Soft()) as 
                 
                 with gr.Tab("🧠 Knowledge Graph"):
                     gr.Markdown("### Cognee Knowledge Graph Visualization")
-                    gr.Markdown("This shows the semantic knowledge graph built by Cognee from participant data.")
+                    gr.Markdown("Select a database and view its knowledge graph in your browser.")
                     
-                    visualize_btn = gr.Button(
-                        "🔍 Visualize Knowledge Graph",
-                        variant="primary",
-                        size="lg"
+                    # Dropdown to select which graph to view
+                    graph_selector = gr.Dropdown(
+                        choices=["Participants", "Gifts"],
+                        value="Participants",
+                        label="Select Graph to View"
                     )
                     
                     open_browser_btn = gr.Button(
                         "🌐 Open in Browser",
-                        variant="secondary",
-                        size="lg",
-                        visible=False
+                        variant="primary",
+                        size="lg"
                     )
                     
                     graph_status = gr.Textbox(
-                        label="Graph Status",
+                        label="Status",
                         interactive=False,
-                        lines=2
-                    )
-                    
-                    knowledge_graph_file = gr.File(
-                        label="Knowledge Graph HTML File (Download)",
-                        file_types=[".html"],
-                        type="filepath"
+                        lines=1
                     )
 
                 with gr.Tab("🎁 GiftScout"):
@@ -1053,13 +1079,10 @@ with gr.Blocks(title="🎅 Secret Santa Agent 🎄", theme=gr.themes.Soft()) as 
         outputs=[status_text, matches_display]
     )
     
-    visualize_btn.click(
-        fn=visualize_knowledge_graph,
-        outputs=[graph_status, knowledge_graph_file, open_browser_btn]
-    )
-    
+    # Knowledge Graph - just open selected graph in browser
     open_browser_btn.click(
         fn=open_graph_in_browser,
+        inputs=[graph_selector],
         outputs=[graph_status]
     )
     

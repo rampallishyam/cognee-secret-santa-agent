@@ -1,8 +1,0 @@
-Gift Product:
-Name: Literary Subscription Box (3 months)
-Category: Books & Reading
-Price: $55
-Best for interests: reading, contemporary fiction, mystery, journaling
-Description: Curated monthly book selections
-Budget Range: Medium ($40-$70)
-Perfect gift for someone who enjoys: reading, contemporary fiction, mystery

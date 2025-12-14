@@ -15,6 +15,7 @@ sys.path.append(str(Path(__file__).parent))
 
 from helper_functions.export_cognee import export_cognee_data
 from agent import Participant, BudgetLevel
+from cognee.api.v1.visualize.visualize import visualize_graph
 
 async def build_participant_database():
     """Butild and export the full participant knowledge graph."""
@@ -74,6 +75,9 @@ Special Notes: {'Rule breaker - likes chaos and inappropriate gifts' if p.is_rul
     
     # Use helper to export
     await export_cognee_data(export_dir=str(output_path))
+
+    # Create database visualisation file
+    await visualize_graph("/Users/rampalli/Downloads/temp/cognee/artifacts/knowledge_graph_participants.html")
     
     print("\n✅ Database creation complete!")
     print(f"   Saved to: {output_path}")

@@ -1,8 +1,0 @@
-Participant Profile:
-Name: Frank Rodriguez
-ID: p006
-Email: frank.r@email.com
-Interests and Hobbies: cooking, baking, food photography, wine
-Gift Preferences: Passionate about Italian cuisine and craft beer
-Budget Level: medium ($55)
-Special Notes: Standard participant

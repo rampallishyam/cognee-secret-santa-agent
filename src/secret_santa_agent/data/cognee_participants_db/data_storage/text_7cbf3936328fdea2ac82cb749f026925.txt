@@ -1,8 +1,0 @@
-Participant Profile:
-Name: Kate Lee
-ID: p011
-Email: kate.lee@email.com
-Interests and Hobbies: fashion, sustainable clothing, upcycling, DIY
-Gift Preferences: Prefers ethical fashion brands
-Budget Level: high ($65)
-Special Notes: Standard participant

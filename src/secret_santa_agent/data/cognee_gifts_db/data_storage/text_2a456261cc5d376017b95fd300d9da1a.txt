@@ -1,8 +1,0 @@
-Gift Product:
-Name: Pet Care Book Collection
-Category: Pets & Animals
-Price: $38
-Best for interests: pets, animal rescue, cats, dogs, volunteering
-Description: Training and health guides
-Budget Range: Low ($20-$40)
-Perfect gift for someone who enjoys: pets, animal rescue, cats

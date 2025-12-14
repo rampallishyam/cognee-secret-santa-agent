@@ -1,8 +1,0 @@
-Gift Product:
-Name: Music Festival Gear Pack
-Category: Music & Vinyl
-Price: $48
-Best for interests: music, vinyl, concerts, indie rock
-Description: Portable speaker and accessories
-Budget Range: Medium ($40-$70)
-Perfect gift for someone who enjoys: music, vinyl, concerts

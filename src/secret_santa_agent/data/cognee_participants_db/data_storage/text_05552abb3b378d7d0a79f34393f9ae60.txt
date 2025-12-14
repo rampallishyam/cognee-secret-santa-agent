@@ -1,8 +1,0 @@
-Participant Profile:
-Name: Alex Chen
-ID: p001
-Email: alex.chen@email.com
-Interests and Hobbies: coding, machine learning, robotics, sci-fi books
-Gift Preferences: Loves tech gadgets and AI-related gifts
-Budget Level: medium ($60)
-Special Notes: Standard participant

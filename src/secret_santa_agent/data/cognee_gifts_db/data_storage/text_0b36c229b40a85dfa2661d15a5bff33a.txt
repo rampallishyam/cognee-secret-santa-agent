@@ -1,8 +1,0 @@
-Gift Product:
-Name: Artisan Coffee Sampler
-Category: Coffee & Beverages
-Price: $45
-Best for interests: coffee, wine, craft beer, tea
-Description: Premium beans from 5 specialty roasters
-Budget Range: Medium ($40-$70)
-Perfect gift for someone who enjoys: coffee, wine, craft beer

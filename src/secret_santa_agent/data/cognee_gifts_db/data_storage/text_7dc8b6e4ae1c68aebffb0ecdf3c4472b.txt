@@ -1,8 +1,0 @@
-Gift Product:
-Name: "Neural Networks from Scratch" Book
-Category: Tech & Gadgets
-Price: $35
-Best for interests: coding, machine learning, robotics, tech, sci-fi
-Description: Deep dive into machine learning fundamentals
-Budget Range: Low ($20-$40)
-Perfect gift for someone who enjoys: coding, machine learning, robotics

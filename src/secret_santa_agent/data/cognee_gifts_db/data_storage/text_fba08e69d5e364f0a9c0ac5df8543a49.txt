@@ -1,8 +1,0 @@
-Gift Product:
-Name: Craft Beer Tasting Flight
-Category: Coffee & Beverages
-Price: $48
-Best for interests: coffee, wine, craft beer, tea
-Description: Curated selection of 12 craft beers
-Budget Range: Medium ($40-$70)
-Perfect gift for someone who enjoys: coffee, wine, craft beer

@@ -6,6 +6,7 @@ using the proper export helper for correct directory structure.
 """
 
 import asyncio
+import os
 import json
 import cognee
 import sys
@@ -19,6 +20,7 @@ load_dotenv()
 sys.path.append(str(Path(__file__).parent))
 
 from helper_functions.export_cognee import export_cognee_data
+from cognee.api.v1.visualize.visualize import visualize_graph
 
 
 async def build_gift_database():
@@ -77,6 +79,9 @@ Perfect gift for someone who enjoys: {', '.join(category['interests'][:3])}
     
     # Use helper to export (creates proper structure with system_databases/)
     await export_cognee_data(export_dir=str(output_path))
+
+    # Create database visualisation file
+    await visualize_graph(os.getcwd() + "/artifacts/knowledge_graph_gifts.html")
     
     print("\n✅ Gift Database creation complete!")
     print(f"   Saved to: {output_path}")

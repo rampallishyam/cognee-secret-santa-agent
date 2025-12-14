@@ -1,8 +1,0 @@
-Gift Product:
-Name: Gardening Tool Set
-Category: Gardening & Plants
-Price: $38
-Best for interests: gardening, succulents, plants, composting, sustainability
-Description: Stainless steel hand tools
-Budget Range: Low ($20-$40)
-Perfect gift for someone who enjoys: gardening, succulents, plants

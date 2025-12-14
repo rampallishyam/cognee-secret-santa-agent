@@ -60,6 +60,10 @@ source .venv/bin/activate  # On macOS/Linux
 
 # Install dependencies
 uv sync
+
+# build participant and gift databases
+python src/secret_santa_agent/build_participant_database.py
+python src/secret_santa_agent/build_gift_database.py
 ```
 
 ### 3. Configure Environment Variables

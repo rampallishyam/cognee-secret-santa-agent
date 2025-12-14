@@ -1,8 +1,0 @@
-Gift Product:
-Name: Arduino Nano Project Bundle
-Category: Tech & Gadgets
-Price: $45
-Best for interests: coding, machine learning, robotics, tech, sci-fi
-Description: Microcontroller kit perfect for ML and IoT experiments
-Budget Range: Medium ($40-$70)
-Perfect gift for someone who enjoys: coding, machine learning, robotics

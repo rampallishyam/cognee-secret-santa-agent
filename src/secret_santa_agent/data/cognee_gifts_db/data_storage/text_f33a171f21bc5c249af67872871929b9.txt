@@ -1,8 +1,0 @@
-Gift Product:
-Name: Travel Photography Guide Book
-Category: Photography & Travel
-Price: $35
-Best for interests: photography, travel, hiking, nature, outdoor
-Description: Tips for capturing travel moments
-Budget Range: Low ($20-$40)
-Perfect gift for someone who enjoys: photography, travel, hiking

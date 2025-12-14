@@ -1,8 +1,0 @@
-Participant Profile:
-Name: Henry Davis
-ID: p008
-Email: henry.d@email.com
-Interests and Hobbies: fitness, running, cycling, nutrition
-Gift Preferences: Into marathons and endurance sports
-Budget Level: high ($70)
-Special Notes: Standard participant
