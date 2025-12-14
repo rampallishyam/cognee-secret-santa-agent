@@ -43,14 +43,15 @@ An intelligent Secret Santa matching system powered by Cognee knowledge graphs a
 ### 1. Clone the Repository
 
 ```bash
-cd /path/to/cognee
+git clone https://github.com/rampallishyam/cognee-secret-santa-agent.git
 ```
 
 ### 2. Set Up Environment
 
 ```bash
 # Create virtual environment
-python3 -m venv .venv
+uv venv .venv
+# (if uv is not installed, install it using pip install uv)
 
 # Activate virtual environment
 source .venv/bin/activate  # On macOS/Linux
@@ -58,7 +59,7 @@ source .venv/bin/activate  # On macOS/Linux
 .venv\Scripts\activate  # On Windows
 
 # Install dependencies
-pip install -r requirements.txt
+uv sync
 ```
 
 ### 3. Configure Environment Variables
@@ -74,7 +75,7 @@ Edit `.env` and add your API keys:
 ```env
 OPENAI_API_KEY=your_openai_api_key_here
 LLM_PROVIDER=openai
-LLM_MODEL=gpt-4o-mini
+LLM_MODEL=gpt-4.1-mini
 ```
 
 ### 4. Run the Application
@@ -129,18 +130,16 @@ The app will start at `http://127.0.0.1:7860`
 ## Project Structure
 
 ```
-cognee/
+cognee-secret-santa-agent/
 ├── src/secret_santa_agent_simple/
 │   ├── gradio_app.py              # Main Gradio application
 │   ├── agent.py                   # Core matching logic
-│   ├── build_participant_database.py  # Participant DB builder
-│   ├── build_gift_database.py     # Gift catalog DB builder
 │   ├── data/
 │   │   ├── cognee_participants_db/    # Pre-built participant database
 │   │   └── cognee_gifts_db/           # Pre-built gift database
 │   └── helper_functions/          # Utility functions
-├── .env                           # Environment configuration
-└── requirements.txt               # Python dependencies
+├── .env.template                           # Environment configuration
+└── pyproject.toml               # Python dependencies
 ```
 
 ## Key Technologies
