@@ -1,4 +1,4 @@
-# Secret Santa Agent/SantAI 🎅🎄
+# Secret Santa Agent 🎅🎄
 
 An intelligent Secret Santa matching system powered by Cognee knowledge graphs and LLM analysis. This application uses semantic understanding to create meaningful gift-giving pairs while respecting budget constraints and avoiding reciprocal matches.
 
